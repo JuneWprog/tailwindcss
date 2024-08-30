@@ -18,7 +18,8 @@ npm install postcss-cli tailwindcss autoprefixer
 
 # Settings
 ## file structure
-/src/styles.css -> the source file, is where to put the tailwind code
+/src/styles.css -> the source file, is where to put the tailwind code  
+
 /public/styles.css -> is the output file
 
 ## Add Tailwind CSS to your CSS entry file /src/styles.css
