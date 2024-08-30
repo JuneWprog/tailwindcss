@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap');
+/* put import on the top */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Inside @layer: Provides better organization and potentially better management of CSS */
+@layer components {
+    .btn{
+        @apply bg-purple-500 text-white px-4 py-2 rounded-lg;
+    }
+    .navItem{
+        @apply px-4 py-2 text-3xl text-purple-300;
+    }
+    .card{
+        @apply  bg-white shadow-md rounded-lg p-0 hover:shadow-2xl hover:translate-y-4 transition-shadow duration-300;
+    }
+    .img{
+        @apply h-80 w-full overflow-hidden object-cover rounded-lg;
+    }
+    .footer{
+        @apply text-black text-center p-4;
+    }
+}
